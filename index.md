@@ -92,9 +92,9 @@ To further illustrate its utility, the proposed method is used in several applic
 In the latter task, the proposed method represents the coefficient of friction of the terrain probabilistically, which enables the use of an on-line risk-aware planner that switches the legged robot from a dynamic gait to a static, stable gait when the expected value of the coefficient of friction falls below a given threshold.
 Videos of these case studies are shown above.
 
-# <p align="center">
-# <img src="https://raw.githubusercontent.com/ParkerEwen5441/github.io-multimodal_mapping/main/web_elements/pitch.png" class="img-responsive" alt="" # width="500" height="500">
-# </p>
+<p align="center">
+<img src="https://github.com/yich7045/DEFORM/blob/main/DEFORM_img1.PNG" class="img-responsive" alt="" # width="500" height="500">
+</p>
 
 The method proposed in this paper jointly estimates semantic classifications and physical properties by combining visual and tactile data into a single semantic mapping framework. 
 RGB-D images are used to build a metric-semantic map that iteratively estimates semantic labels. 
