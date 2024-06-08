@@ -59,9 +59,11 @@ links:
 
 ---
 
-# Overview Video
+# Demo Video
 <div class="fullwidth">
-<iframe style="aspect-ratio: 16/9; width: 100%;" src="https://www.youtube.com/embed/Vz8tWRJMNwQ?si=SogKboQVydX-D-HP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<video controls="" width="100%">
+    <source src="https://github.com/ParkerEwen5441/github.io-multimodal_mapping/assets/48282126/bb4d10af-1db5-4dc7-bfc1-bc8a6cdf3bda">
+</video>
 </div>
 
 # Abstract
