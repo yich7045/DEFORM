@@ -1,10 +1,10 @@
 ---
 # Front matter. This is where you specify a lot of page variables.
 layout: default
-title:  "WAITR"
+title:  "DEFORM"
 date:   2023-06-16 03:03:01 -0400
 description: >- # Supports markdown
-  Wrench Analysis for Inertial Transport using Reachability
+  differentiable Discrete Elastic Rods For deformable linear Objects with Real-time Modeling
 show-description: true
 
 # Add page-specific mathjax functionality. Manage global setting in _config.yml
@@ -14,21 +14,20 @@ mathjax: true
 autoanchor: false
 
 authors:
+  - name: Yizhou Chen
+    email: yizhouch@umich.edu
+  - name: Yiting Zhang
+    email: yitzhang@umich.edu 
   - name: Zachary Brei
     email: breizach@umich.edu
-    # footnotes: 1
-  - name: Jonathan Michaux
-    # url: https://buildingatom.io
-    email: jmichaux@umich.edu
-    # footnotes: 2
-  - name: Bohao Zhang
-    email: jimzhang@umich.edu
-    # footnotes: 2
-  - name: Patrick Holmes
-    # footnotes: 2
+  - name: Tiancheng Zhang
+    email: zhangtc@umich.edu
+  - name: Yuzhen Chen
+    email: yuzhench@umich.edu
+  - name: Julie Wu
+    email: jwuxx@umich.edu
   - name: Ram Vasudevan
     email: ramv@umich.edu
-    # footnotes: 2
 
 author-footnotes:
   All authors affiliated with the department of Mechanical Engineering and Department of Robotics of the University of Michigan, Ann Arbor.
