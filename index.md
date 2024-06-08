@@ -93,7 +93,7 @@ In the latter task, the proposed method represents the coefficient of friction o
 Videos of these case studies are shown above.
 
 <p align="center">
-<img src="https://github.com/yich7045/DEFORM/blob/main/DEFORM_img1.PNG" class="img-responsive" alt="" # width="500" height="500">
+<img src="https://github.com/yich7045/DEFORM/blob/main/DEFORM_img1.PNG" class="img-responsive" alt="" # width="1000" height="500">
 </p>
 
 The method proposed in this paper jointly estimates semantic classifications and physical properties by combining visual and tactile data into a single semantic mapping framework. 
