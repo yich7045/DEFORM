@@ -102,7 +102,7 @@ A semantic classification algorithm predicts pixel-wise classes from RGB images 
 This semantic point cloud is used to build a metric-semantic map. 
 When a property measurement is taken, the method of moments is used to update the semantic and property estimates jointly.
 
-# ![Flow diagram for multi-modal mapping](https://raw.githubusercontent.com/ParkerEwen5441/github.io-multimodal_mapping/main/web_elements/RSS_flow_diagram_updated.jpeg "Flow Diagram")
+![Flow diagram for multi-modal mapping](https://raw.githubusercontent.com/ParkerEwen5441/github.iomultimodal_mapping/main/web_elements/RSS_flow_diagram_updated.jpeg "Flow Diagram")
 
 We use a custom implementation of the [SegFormer network](https://github.com/NVlabs/SegFormer) trained on the [Dense Material Segmentation Dataset](https://github.com/apple/ml-dms-dataset).
 The output of the network is then post-processed with a segment-based voting scheme using [FastSAM](https://github.com/CASIA-IVA-Lab/FastSAM).
@@ -140,7 +140,7 @@ Each RGB-D image is semantically segmented using the trained network and project
 The recursive vision-based semantic update is applied for each semantic point cloud.
 This initializes the Dirichlet parameters used to compute the initial semantic classification weights for the measurement likelihood.
 
-# ![Hardware demonstrations for multi-modal mapping](https://raw.githubusercontent.com/ParkerEwen5441/github.io-multimodal_mapping/main/web_elements/hardware_results.png "Hardware Demonstrations")
+![Hardware demonstrations for multi-modal mapping](https://raw.githubusercontent.com/ParkerEwen5441/github.io-multimodal_mapping/main/web_elements/hardware_results.png "Hardware Demonstrations")
 
 We compare our approach to the recursive semantic mapping approach of [selmap](https://github.com/roahmlab/sel_map) which only uses vision.
 The same SegFormer-FastSAM semantic segmentation network is used for both methods.
