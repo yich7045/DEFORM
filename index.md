@@ -15,7 +15,7 @@ autoanchor: true
 
 # Preview image for social media cards
 image:
-  path: https://raw.githubusercontent.com/ParkerEwen5441/github.io-multimodal_mapping/main/web_elements/pitch.png
+  path: https://github.com/yich7045/DEFORM/blob/main/DEFORM_img1.PNG
   height: 100
   width: 256
   alt: Random Landscape
