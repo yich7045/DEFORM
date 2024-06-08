@@ -18,7 +18,7 @@ autoanchor: true
 path: https://github.com/yich7045/DEFORM/blob/main/DEFORM_img1.PNG
   height: 100
   width: 256
-#  alt: Random Landscape
+  alt: Random Landscape
 
 # Only the first author is supported by twitter metadata
 authors:
