@@ -1,7 +1,7 @@
 ---
 # Front matter. This is where you specify a lot of page variables.
 layout: default
-title:  "Differentiable Discrete Elastic Rods for Real-Time Modeling of Deformable Linear Objects"
+title:  "You've Got to Feel It To Believe It: Multi-Modal Bayesian Inference for Semantic and Property Prediction"
 date:   2024-02-08 13:24:00 -0400
 description: >- # Supports markdown
   Using multiple sensing modalities improves semantic predictions and enables complex task completion.
