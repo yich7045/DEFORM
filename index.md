@@ -80,7 +80,6 @@ You can also make fullwidth embeds (this doesn't actually link to any video)
 </div>
 
 <div markdown="1" class="content-block grey justify">
-  
 # Abstract
 
 This paper addresses the task of modeling Deformable Linear Objects (DLOs), such as ropes and cables, during dynamic motion over long time horizons.
