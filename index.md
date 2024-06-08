@@ -1,11 +1,11 @@
 ---
 # Front matter. This is where you specify a lot of page variables.
 layout: default
-title:  "Differentiable Discrete Elastic Rods for Real-Time Modeling of Deformable Linear Objects"
-date:   2024-06-08 09:48:00 -0400
-# description: >- # Supports markdown
-#  Using multiple sensing modalities improves semantic predictions and enables complex task completion.
-# show-description: true
+title:  "You've Got to Feel It To Believe It: Multi-Modal Bayesian Inference for Semantic and Property Prediction"
+date:   2024-02-08 13:24:00 -0400
+description: >- # Supports markdown
+  Using multiple sensing modalities improves semantic predictions and enables complex task completion.
+show-description: true
 
 # Add page-specifi mathjax functionality. Manage global setting in _config.yml
 mathjax: true
@@ -15,10 +15,11 @@ autoanchor: true
 
 # Preview image for social media cards
 image:
-path: https://raw.githubusercontent.com/ParkerEwen5441/github.io-multimodal_mapping/main/web_elements/pitch.png
+  path: https://raw.githubusercontent.com/ParkerEwen5441/github.io-multimodal_mapping/main/web_elements/pitch.png
   height: 100
   width: 256
   alt: Random Landscape
+
 
 # Only the first author is supported by twitter metadata
 authors:
