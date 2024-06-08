@@ -82,25 +82,17 @@ You can also make fullwidth embeds (this doesn't actually link to any video)
 <div markdown="1" class="content-block grey justify">
 # Abstract
 
-Robots must be able to understand their surroundings to perform complex tasks in challenging environments and many of these complex tasks require estimates of physical properties such as friction or weight.
-Estimating such properties using learning is challenging due to the large amounts of labelled data required for training and the difficulty of updating these learned models online at run time.
-To overcome these challenges, this paper introduces a novel, multi-modal approach for representing semantic predictions and physical property estimates jointly in a probabilistic manner.
-By using conjugate pairs, the proposed method enables closed-form Bayesian updates given visual and tactile measurements without requiring additional training data.
-The efficacy of the proposed algorithm is demonstrated through several hardware experiments. 
-In particular, this paper illustrates that by conditioning semantic classifications on physical properties, the proposed method quantitatively  outperforms state-of-the-art semantic classification methods that rely on vision alone.
-To further illustrate its utility, the proposed method is used in several applications including to represent affordance-based properties probabilistically and a challenging terrain traversal task using a legged robot.
-In the latter task, the proposed method represents the coefficient of friction of the terrain probabilistically, which enables the use of an on-line risk-aware planner that switches the legged robot from a dynamic gait to a static, stable gait when the expected value of the coefficient of friction falls below a given threshold.
-Videos of these case studies are shown above.
-
+This paper addresses the task of modeling Deformable Linear Objects (DLOs), such as ropes and cables, during dynamic motion over long time horizons.
+This task presents significant challenges due to the complex dynamics of DLOs.
+To address these challenges, this paper proposes differentiable Discrete Elastic Rods For deformable linear Objects with Real-time Modeling (DEFORM), 
+a novel framework that combines a differentiable physics-based model with a learning framework to model DLOs accurately and in real-time. 
+The performance of DEFORM is evaluated in an experimental setup involving two industrial robots and a variety of sensors.
+A comprehensive series of experiments demonstrate the efficacy of DEFORM in terms of accuracy, computational speed, and generalizability when compared to state-of-the-art alternatives.
+To further demonstrate the utility of DEFORM, this paper integrates it into a perception pipeline and illustrates its superior performance when compared to the state-of-the-art methods while tracking a DLO even in the presence of occlusions. 
+Finally, this paper illustrates the superior performance of DEFORM when compared to state-of-the-art methods when it is applied to perform autonomous planning and control of DLOs.
 <p align="center">
-<img src="https://raw.githubusercontent.com/ParkerEwen5441/github.io-multimodal_mapping/main/web_elements/pitch.png" class="img-responsive" alt="" width="500" height="500">
+  <img src="https://raw.githubusercontent.com/yich7045/DEFORM/main/DEFORM_model.jpg" class="img-responsive" alt="DEFORM model" width="1000" height="330">
 </p>
-
-The method proposed in this paper jointly estimates semantic classifications and physical properties by combining visual and tactile data into a single semantic mapping framework. 
-RGB-D images are used to build a metric-semantic map that iteratively estimates semantic labels. 
-A property measurement is taken which in turn updates both the semantic class predictions and physical property estimates. 
-In the depicted example, the robot is unsure if the terrain in front of it is snow or ice from vision measurements alone (prior estimates) which dramatically affects the coefficient of friction and the associated gait that can be applied to safely traverse the terrain.
-The robot uses a tactile sensor attached to its manipulator to update its coefficient of friction estimation (posterior estimates), which then enables it to change gaits to cross the ice safely.
 </div>
 
 # Method
@@ -110,7 +102,7 @@ A semantic classification algorithm predicts pixel-wise classes from RGB images 
 This semantic point cloud is used to build a metric-semantic map. 
 When a property measurement is taken, the method of moments is used to update the semantic and property estimates jointly.
 
-![Flow diagram for multi-modal mapping](https://raw.githubusercontent.com/ParkerEwen5441/github.io-multimodal_mapping/main/web_elements/RSS_flow_diagram_updated.jpeg "Flow Diagram")
+# ![Flow diagram for multi-modal mapping](https://raw.githubusercontent.com/ParkerEwen5441/github.io-multimodal_mapping/main/web_elements/RSS_flow_diagram_updated.jpeg "Flow Diagram")
 
 We use a custom implementation of the [SegFormer network](https://github.com/NVlabs/SegFormer) trained on the [Dense Material Segmentation Dataset](https://github.com/apple/ml-dms-dataset).
 The output of the network is then post-processed with a segment-based voting scheme using [FastSAM](https://github.com/CASIA-IVA-Lab/FastSAM).
@@ -148,7 +140,7 @@ Each RGB-D image is semantically segmented using the trained network and project
 The recursive vision-based semantic update is applied for each semantic point cloud.
 This initializes the Dirichlet parameters used to compute the initial semantic classification weights for the measurement likelihood.
 
-![Hardware demonstrations for multi-modal mapping](https://raw.githubusercontent.com/ParkerEwen5441/github.io-multimodal_mapping/main/web_elements/hardware_results.png "Hardware Demonstrations")
+# ![Hardware demonstrations for multi-modal mapping](https://raw.githubusercontent.com/ParkerEwen5441/github.io-multimodal_mapping/main/web_elements/hardware_results.png "Hardware Demonstrations")
 
 We compare our approach to the recursive semantic mapping approach of [selmap](https://github.com/roahmlab/sel_map) which only uses vision.
 The same SegFormer-FastSAM semantic segmentation network is used for both methods.
