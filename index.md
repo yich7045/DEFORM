@@ -14,7 +14,7 @@ mathjax: true
 autoanchor: true
 
 # Preview image for social media cards
-#image:
+image:
 path: https://raw.githubusercontent.com/ParkerEwen5441/github.io-multimodal_mapping/main/web_elements/pitch.png
   height: 100
   width: 256
