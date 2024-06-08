@@ -15,7 +15,7 @@ autoanchor: true
 
 # Preview image for social media cards
 image:
-  path: https://github.com/yich7045/DEFORM/blob/main/DEFORM_model.jpg
+  path: https://raw.githubusercontent.com/yich7045/DEFORM/blob/main/DEFORM_model.jpg
   height: 100
   width: 256
   alt: Random Landscape
