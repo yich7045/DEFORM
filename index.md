@@ -13,6 +13,13 @@ mathjax: true
 # https://github.com/allejo/jekyll-anchor-headings
 autoanchor: false
 
+# Preview image for social media cards
+image:
+  path: https://raw.githubusercontent.com/yich7045/DEFORM/blob/main/DEFORM_model.jpg
+  height: 100
+  width: 256
+  alt: Random Landscape
+  
 authors:
   - name: Yizhou Chen
     email: yizhouch@umich.edu
@@ -42,10 +49,6 @@ links:
     icon-library: simpleicons
     text: Code
     url: https://github.com/roahmlab/waitr-dev
-  - icon: bi-file-earmark-text
-    icon-library: bootstrap-icons
-    text: Supplementary Appendices
-    url: RAL_WAITR_Appendices.pdf
     
 
 # End Front Matter
@@ -63,12 +66,18 @@ links:
 
 # Abstract
 
-A key challenge to ensuring the rapid transition of robotic systems from the industrial sector to more ubiquitous applications is the development of algorithms that can guarantee safe operation while in close proximity to humans.
-Motion planning and control methods, for instance, must be able to certify safety while operating in real-time in arbitrary environments and in the presence of model uncertainty. 
-This paper proposes Wrench Analysis for Inertial Transport using Reachability (WAITR), a certifiably safe motion planning and control framework for serial link manipulators that manipulate unsecured objects in arbitrary environments. 
-WAITR uses reachability analysis to construct over-approximations of the contact wrench applied to unsecured objects, which captures uncertainty in the manipulator dynamics, the object dynamics, and contact parameters such as the coefficient of friction. 
-An optimization problem formulation is presented that can be solved in real-time to generate provably-safe motions for manipulating the unsecured objects. 
-This paper illustrates that WAITR outperforms state of the art methods in a variety of simulation experiments and demonstrates its performance in the real-world.
+This paper addresses the task of modeling Deformable Linear Objects (DLOs), such as ropes and cables, during dynamic motion over long time horizons.
+This task presents significant challenges due to the complex dynamics of DLOs.
+To address these challenges, this paper proposes differentiable Discrete Elastic Rods For deformable linear Objects with Real-time Modeling (DEFORM), 
+a novel framework that combines a differentiable physics-based model with a learning framework to model DLOs accurately and in real-time. 
+The performance of DEFORM is evaluated in an experimental setup involving two industrial robots and a variety of sensors.
+A comprehensive series of experiments demonstrate the efficacy of DEFORM in terms of accuracy, computational speed, and generalizability when compared to state-of-the-art alternatives.
+To further demonstrate the utility of DEFORM, this paper integrates it into a perception pipeline and illustrates its superior performance when compared to the state-of-the-art methods while tracking a DLO even in the presence of occlusions. 
+Finally, this paper illustrates the superior performance of DEFORM when compared to state-of-the-art methods when it is applied to perform autonomous planning and control of DLOs.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/yich7045/DEFORM/main/DEFORM_model.jpg" class="img-responsive" alt="DEFORM model" width="1000" height="330">
+</p>
+</div>
 
 ---
 
