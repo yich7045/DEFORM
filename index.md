@@ -77,8 +77,6 @@ Finally, this paper illustrates the superior performance of DEFORM when compared
 <p align="center">
   <img src="https://raw.githubusercontent.com/yich7045/DEFORM/main/DEFORM_model.jpg" class="img-responsive" alt="DEFORM model" width="1000" height="330">
 </p>
-</div>
-
 ---
 
 # Method
