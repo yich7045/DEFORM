@@ -22,9 +22,8 @@ image:
 
 # Only the first author is supported by twitter metadata
 authors:
-  - name: Parker Ewen
-    url: https://parkerewen.com
-    email: pewen@umich.edu
+  - name: Yizhou Chen
+    email: yizhouch@umich.edu
   - name: Hao Chen
     email: haochern@umich.edu
   - name: Yuzhen Chen
