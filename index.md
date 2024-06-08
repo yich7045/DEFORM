@@ -1,4 +1,4 @@
-=---
+---
 # Front matter. This is where you specify a lot of page variables.
 layout: default
 title:  "You've Got to Feel It To Believe It: Multi-Modal Bayesian Inference for Semantic and Property Prediction"
