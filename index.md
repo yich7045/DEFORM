@@ -3,9 +3,9 @@
 layout: default
 title:  "Differentiable Discrete Elastic Rods for Real-Time Modeling of Deformable Linear Objects"
 date:   2024-06-08 09:48:00 -0400
-description: >- # Supports markdown
-  Using multiple sensing modalities improves semantic predictions and enables complex task completion.
-show-description: true
+# description: >- # Supports markdown
+#  Using multiple sensing modalities improves semantic predictions and enables complex task completion.
+# show-description: true
 
 # Add page-specifi mathjax functionality. Manage global setting in _config.yml
 mathjax: true
