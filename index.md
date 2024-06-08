@@ -15,7 +15,7 @@ autoanchor: true
 
 # Preview image for social media cards
 image:
-  path: https://github.com/yich7045/DEFORM/blob/main/DEFORM_img1.png
+  path: https://github.com/yich7045/DEFORM/blob/main/DEFORM_model.jpg
   height: 100
   width: 256
   alt: Random Landscape
@@ -93,7 +93,7 @@ In the latter task, the proposed method represents the coefficient of friction o
 Videos of these case studies are shown above.
 
 <p align="center">
-<img src="https://github.com/yich7045/DEFORM/blob/main/DEFORM_img1.png" class="img-responsive" alt="" width="1000" height="330">
+<img src="https://github.com/yich7045/DEFORM/blob/main/DEFORM_model.jpg" class="img-responsive" alt="" width="1000" height="330">
 </p>
 
 The method proposed in this paper jointly estimates semantic classifications and physical properties by combining visual and tactile data into a single semantic mapping framework. 
