@@ -4,7 +4,7 @@ layout: default
 title:  "DEFORM"
 date:   2023-06-16 03:03:01 -0400
 description: >- # Supports markdown
-  differentiable Discrete Elastic Rods For deformable linear Objects with Real-time Modeling
+  **D**ifferentiable Discrete **E**lastic Rods **F**or Deformable Linear **O**bjects with **R**eal-time **M**odeling
 show-description: true
 
 # Add page-specific mathjax functionality. Manage global setting in _config.yml
