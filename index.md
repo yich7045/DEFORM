@@ -15,7 +15,7 @@ autoanchor: false
 
 # Preview image for social media cards
 image:
-  path: https://raw.githubusercontent.com/yich7045/DEFORM/blob/main/DEFORM_model.jpg
+  path: https://raw.githubusercontent.com/yich7045/DEFORM/blob/main/web_elements/DEFORM_model.jpg
   height: 100
   width: 256
   alt: Random Landscape
@@ -77,7 +77,7 @@ A comprehensive series of experiments demonstrate the efficacy of DEFORM in term
 To further demonstrate the utility of DEFORM, this paper integrates it into a perception pipeline and illustrates its superior performance when compared to the state-of-the-art methods while tracking a DLO even in the presence of occlusions. 
 Finally, this paper illustrates the superior performance of DEFORM when compared to state-of-the-art methods when it is applied to perform autonomous planning and control of DLOs.
 <p align="center">
-  <img src="https://raw.githubusercontent.com/yich7045/DEFORM/main/DEFORM_model.jpg" class="img-responsive" alt="DEFORM model" width="1000" height="330">
+  <img src="https://raw.githubusercontent.com/yich7045/DEFORM/main/web_elements/DEFORM_model.jpg" class="img-responsive" alt="DEFORM model" width="1000" height="330">
 </p>
 ---
 
