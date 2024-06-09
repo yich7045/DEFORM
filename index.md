@@ -74,6 +74,8 @@ Finally, this paper illustrates the superior performance of DEFORM when compared
 
 </p>
 The figure shows DEFORM's predicted states (yellow) and the actual states (red) for a DLO over 4.5 seconds at 100 Hz. Note that the prediction is performed recursively, without requiring access to ground truth or perception during the process.
+</div>
+
 ---
 
 
@@ -100,7 +102,7 @@ c) 1 &rarr; 2: DER enforces inextensibility, but this does not satisfy classical
 </div>
 
 <div markdown="1" class="content-block grey justify">
-  
+
 # [Citation](#citation)
 
 This project was developed in [Robotics and Optimization for Analysis of Human Motion (ROAHM) Lab](http://www.roahmlab.com/) at University of Michigan - Ann Arbor.
