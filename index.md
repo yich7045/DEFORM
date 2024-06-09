@@ -74,6 +74,7 @@ Finally, this paper illustrates the superior performance of DEFORM when compared
 
 </p>
 The figure shows DEFORM's predicted states (yellow) and the actual states (red) for a DLO over 4.5 seconds at 100 Hz. Note that the prediction is performed recursively, without requiring access to ground truth or perception during the process.
+---
 
 
 # Method
