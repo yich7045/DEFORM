@@ -78,7 +78,7 @@ The figure shows DEFORM's predicted states (yellow) and the actual states (red) 
 
 # Method
 <div markdown="1" class="content-block grey justify no-pre">
-The following figure demonstrates the overview of DEFORM (green). Contributions of DEFORM are highlighted in green. 
+The following figure demonstrates the overview of DEFORM. Contributions of DEFORM are highlighted in green. 
 a) DER models discretize DLOs into vertices, segment them into elastic rods, and model their dynamic propagation. 
 DEFORM reformulates DER into Differentiable DER (DDER) which describes how to compute gradients from the prediction loss, enabling efficient system identification and incorporation into deep learning pipelines.
 b) To compensate for the error from DER's numerical integration, DEFORM introduces residual learning via DNNs.
