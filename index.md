@@ -73,7 +73,7 @@ Finally, this paper illustrates the superior performance of DEFORM when compared
   <img src="https://raw.githubusercontent.com/yich7045/DEFORM/main/web_elements/DEFORM_model.jpg" class="img-responsive" alt="DEFORM model" width="1000" height="330">
 </p>
 The figure shows DEFORM's predicted states (yellow) and the actual states (red) for a DLO over 4.5 seconds at 100 Hz. Note that the prediction is performed recursively, without requiring access to ground truth or perception during the process.
----
+
 
 # Method
 <div markdown="1" class="content-block grey justify no-pre">
