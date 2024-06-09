@@ -70,7 +70,7 @@ A comprehensive series of experiments demonstrate the efficacy of DEFORM in term
 To further demonstrate the utility of DEFORM, this paper integrates it into a perception pipeline and illustrates its superior performance when compared to the state-of-the-art methods while tracking a DLO even in the presence of occlusions. 
 Finally, this paper illustrates the superior performance of DEFORM when compared to state-of-the-art methods when it is applied to perform autonomous planning and control of DLOs.
 <p align="center">
-  <img src="https://raw.githubusercontent.com/yich7045/DEFORM/main/web_elements/DEFORM_model.jpg" class="img-responsive" alt="DEFORM model" width="1000" height="270">
+  <img src="https://raw.githubusercontent.com/yich7045/DEFORM/main/web_elements/DEFORM_model.jpg" class="img-responsive" alt="DEFORM model" width="1000" height="330">
 </p>
 The figure shows DEFORM's predicted states (yellow) and the actual states (red) for a DLO over 4.5 seconds at 100 Hz. Note that the prediction is performed recursively, without requiring access to ground truth or perception during the process.
 
@@ -79,7 +79,7 @@ The figure shows DEFORM's predicted states (yellow) and the actual states (red) 
 <div markdown="1" class="content-block grey justify no-pre">
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/yich7045/DEFORM/main/web_elements/DEFORM_Overview.png" class="img-responsive" alt="DEFORM model" width="1000" height="310">
+  <img src="https://raw.githubusercontent.com/yich7045/DEFORM/main/web_elements/DEFORM_Overview.png" class="img-responsive" alt="DEFORM model" width="1100" height="340">
 </p>
 This paper considers the problem of safe motion planning for manipulation of unsecured objects with uncertain dynamics such as manipulating an unsecured cup filled with an uncertain mass around randomly placed obstacles (red) such that the cup does not move relative to the tray supporting it. 
 WAITR operates in receding-horizon fashion, moving from a start configuration (blue) to a global goal (green) by repeatedly generating new motion plans in real-time. 
