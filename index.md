@@ -82,7 +82,7 @@ The following figure demonstrates the overview of DEFORM contributions (green).
 a) DER models discretize DLOs into vertices, segment them into elastic rods, and model their dynamic propagation. 
 DEFORM reformulates DER into Differentiable DER (DDER) which describes how to compute gradients from the prediction loss, enabling efficient system identification and incorporation into deep learning pipelines.
 b) To compensate for the error from DER's numerical integration, DEFORM introduces residual learning via DNNs.
-c) $1 \rightarrow 2$: DER enforces inextensibility, but this does not satisfy classical conservation principles.  $1 \rightarrow 3$: DEFORM enforces inextensibility with momentum conservation, which allows dynamic modeling while maintaining simulation stability.
+c) 1 &rarr 2: DER enforces inextensibility, but this does not satisfy classical conservation principles.  1 &larr 3: DEFORM enforces inextensibility with momentum conservation, which allows dynamic modeling while maintaining simulation stability.
 <p align="center">
   <img src="https://raw.githubusercontent.com/yich7045/DEFORM/main/web_elements/DEFORM_Overview.png" class="img-responsive" alt="DEFORM overview" style="width: 100%; height: auto;">
 </p>
