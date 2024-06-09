@@ -48,7 +48,7 @@ links:
   - icon: github
     icon-library: simpleicons
     text: Code
-    url: https://github.com/roahmlab/waitr-dev
+    url: https://github.com/roahmlab/DEFORM
     
 
 # End Front Matter
@@ -62,7 +62,7 @@ links:
 # Demo Video
 <div class="fullwidth">
 <video controls="" width="100%">
-    <source src="https://github.com/ParkerEwen5441/github.io-multimodal_mapping/assets/48282126/bb4d10af-1db5-4dc7-bfc1-bc8a6cdf3bda">
+    <source src="https://github.com/yich7045/DEFORM/blob/main/web_elements/DEFORM_Demo.mp4">
 </video>
 </div>
 
