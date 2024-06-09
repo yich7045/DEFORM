@@ -78,17 +78,14 @@ The figure shows DEFORM's predicted states (yellow) and the actual states (red) 
 
 # Method
 <div markdown="1" class="content-block grey justify no-pre">
-
+The following figure demonstrates the overview of DEFORM contributions (green). 
+a) DER models discretize DLOs into vertices, segment them into elastic rods, and model their dynamic propagation. 
+DEFORM reformulates DER into Differentiable DER (DDER) which describes how to compute gradients from the prediction loss, enabling efficient system identification and incorporation into deep learning pipelines.
+b) To compensate for the error from DER's numerical integration, DEFORM introduces residual learning via DNNs.
+c) $1 \rightarrow 2$: DER enforces inextensibility, but this does not satisfy classical conservation principles.  $1 \rightarrow 3$: DEFORM enforces inextensibility with momentum conservation, which allows dynamic modeling while maintaining simulation stability.
 <p align="center">
   <img src="https://raw.githubusercontent.com/yich7045/DEFORM/main/web_elements/DEFORM_Overview.png" class="img-responsive" alt="DEFORM overview" style="width: 100%; height: auto;">
 </p>
-This paper considers the problem of safe motion planning for manipulation of unsecured objects with uncertain dynamics such as manipulating an unsecured cup filled with an uncertain mass around randomly placed obstacles (red) such that the cup does not move relative to the tray supporting it. 
-WAITR operates in receding-horizon fashion, moving from a start configuration (blue) to a global goal (green) by repeatedly generating new motion plans in real-time. 
-In each motion planning iteration, WAITR calculates a reachable set (blue and purple) for the contact wrench between the manipulator and the object as well as a Forward Reachable Set (FRS) for the whole manipulator system for a continuum of possible motion plans. 
-The FRS is shown in purple in a) for a single planning iteration. 
-WAITR solves a constrained trajectory optimization problem to find a collision-free motion in this FRS that does not result in relative motion while making progress towards an intermediate waypoint (grey) and the global goal. 
-Parts c)-e) show the contact constraints enforced during a hardware experiment for a single planning iteration.
-
 </div>
 
 ---
