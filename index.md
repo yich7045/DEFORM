@@ -98,10 +98,8 @@ c) 1 &rarr; 2: DER enforces inextensibility, but this does not satisfy classical
 </video>
 </div>
 
-# Simulation Results
-<div markdown="1" class="content-block grey justify no-pre">
-
-This video is a simulation trial performed to test WAITR against ARMOUR while manipulating a small cylinder and is one of the results reported in Tab. 2 of the paper. 
+# Demo Video
+This video demonstrates the performance of 
 <iframe style="aspect-ratio: 16/9; width: 100%;" src="https://www.youtube.com/embed/0j_CBmOsnjA?si=Gv-bI8A35hj_oRTi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 </div>
