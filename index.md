@@ -92,7 +92,6 @@ c) 1 &rarr; 2: DER enforces inextensibility, but this does not satisfy classical
 ---
 
 # Demo Video
-This video demonstrates the performance of 
 <div class="fullwidth">
 <video controls="" width="100%">
     <source src="https://raw.githubusercontent.com/yich7045/DEFORM/main/web_elements/DEFORM_Demo.mp4" type="video/mp4">
