@@ -62,7 +62,7 @@ links:
 # Demo Video
 <div class="fullwidth">
 <video controls="" width="100%">
-    <source src="https://github.com/yich7045/DEFORM/blob/main/web_elements/DEFORM_Demo.mp4">
+    <source src="https://github.com/yich7045/DEFORM/blob/main/web_elements/DEFORM_Demo.mp4" type="video/mp4">
 </video>
 </div>
 
