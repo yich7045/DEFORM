@@ -59,13 +59,6 @@ links:
 
 ---
 
-# Demo Video
-<div class="fullwidth">
-<video controls="" width="100%">
-    <source src="https://raw.githubusercontent.com/yich7045/DEFORM/main/web_elements/DEFORM_Demo.mp4" type="video/mp4">
-</video>
-</div>
-
 # Abstract
 
 This paper addresses the task of modeling Deformable Linear Objects (DLOs), such as ropes and cables, during dynamic motion over long time horizons.
@@ -96,6 +89,13 @@ Parts c)-e) show the contact constraints enforced during a hardware experiment f
 </div>
 
 ---
+
+# Demo Video
+<div class="fullwidth">
+<video controls="" width="100%">
+    <source src="https://raw.githubusercontent.com/yich7045/DEFORM/main/web_elements/DEFORM_Demo.mp4" type="video/mp4">
+</video>
+</div>
 
 # Simulation Results
 <div markdown="1" class="content-block grey justify no-pre">
